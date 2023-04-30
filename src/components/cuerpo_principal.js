@@ -1,21 +1,8 @@
 import React from 'react';
-import Caja_metrica from './caja_metrica';
 function Cuerpo_principal() {
     return (
 
-
         <div class="container-fluid">
-
-            {/* <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                <h1 class="h3 mb-0 text-gray-800">App Dashboard</h1>
-            </div> */}
-
-            {/* <div class="row">
-                <Caja_metrica clase="card border-left-primary shadow h-100 py-2" titulo='Products in Data Base' valor='135' />
-                <Caja_metrica clase="card border-left-success shadow h-100 py-2" titulo='Amount in products' valor='$546.456' />
-                <Caja_metrica clase="card border-left-warning shadow h-100 py-2" titulo='Users quantity' valor='38' />
-            </div> */}
-            
             <div class="row">
                 <div class="col-lg-6 mb-4">
                     <div class="card shadow mb-4">
@@ -24,7 +11,7 @@ function Cuerpo_principal() {
                         </div>
                         <div class="card-body">
                             <div class="text-center">
-                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src="../../img/product_dummy.svg" alt="image dummy"></img>
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src="../../img/product_dummy.svg" alt='some value' />
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur explicabo officia inventore libero veritatis iure voluptate reiciendis a magnam, vitae, aperiam voluptatum non corporis quae dolorem culpa exercitationem ratione?</p>
                             <a target="_blank" rel="nofollow" href="/">View product detail</a>
